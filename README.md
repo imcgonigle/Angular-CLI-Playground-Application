@@ -19,7 +19,6 @@ This is a playground application used for learning more about Angular, TypeScrip
 - Write unit and end to end tests
 - Allow users to upload files
 
-
 ## Future Technologies
 - Firebase
 - Ionic
@@ -27,3 +26,8 @@ This is a playground application used for learning more about Angular, TypeScrip
 - PostgreSQL
 - D3
 - Express
+
+## Methodologies and Techniques
+- Feature Branch Workflow
+- Modular Component Development
+- Unit and End To End Testing
