@@ -1,3 +1,6 @@
-<p>
-  dashboard works!
-</p>
+<md-sidenav-container class="dashboard-container">
+    <md-sidenav #sidenav mode="side" opened="true">
+        <app-controls></app-controls>
+    </md-sidenav>
+    <app-display></app-display>
+</md-sidenav-container>
