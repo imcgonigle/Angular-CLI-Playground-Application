@@ -8,7 +8,6 @@ import { MdDialogRef } from '@angular/material';
   styleUrls: ['./md-dialog.component.scss']
 })
 export class MdDialogComponent implements OnInit {
-
   constructor(public dialogRef: MdDialogRef<MdDialogComponent>) {}
 
   ngOnInit() {

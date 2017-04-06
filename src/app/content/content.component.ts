@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {MdDialog, MdDialogRef} from '@angular/material';
+import { MdDialogComponent } from '../md-dialog/md-dialog.component';
 
 @Component({
   selector: 'app-content',
@@ -11,8 +12,10 @@ export class ContentComponent implements OnInit {
   constructor(public dialog: MdDialog) { }
 
   launchDialog() {
-    console.log("launching dialog")
-    // TODO: write function that actually launches the dialog
+    let dialogRef = this.dialog.open(MdDialogComponent);
+    dialogRef.afterClosed().subscribe(result => {
+      console.log(result)
+    })
   }
 
   ngOnInit() {

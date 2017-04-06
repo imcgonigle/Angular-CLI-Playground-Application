@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 // Angular Material 2
 import { MaterialModule } from '@angular/material';
@@ -26,6 +26,9 @@ import { MdDialogComponent } from './md-dialog/md-dialog.component';
     DisplayComponent,
     ControlsComponent,
     DashboardComponent,
+    MdDialogComponent
+  ],
+  entryComponents: [
     MdDialogComponent
   ],
   imports: [
