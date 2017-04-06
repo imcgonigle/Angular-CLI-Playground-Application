@@ -14,7 +14,10 @@ export class ContentComponent implements OnInit {
   constructor(public dialog: MdDialog) { }
 
   launchDialog() {
-    let dialogRef = this.dialog.open(MdDialogComponent);
+    let dialogRef = this.dialog.open(MdDialogComponent, {
+      height: '300px',
+      width: '600px'
+    });
     dialogRef.afterClosed().subscribe(result => {
       this.selection = result;
     })
