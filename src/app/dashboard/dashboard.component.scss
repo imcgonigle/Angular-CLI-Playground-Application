@@ -1,0 +1,14 @@
+.dashboard-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.dashboard-container md-sidenav {
+    box-shadow: 1px 0px 4px #333;
+}
+
+.dashboard-container .mat-sidenav-content,
+.dashboard-container md-sidenav {
+    display: flex;
+    overflow: visible;
+}
