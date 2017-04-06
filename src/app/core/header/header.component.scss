@@ -1,3 +1,14 @@
+.mdl-layout__header-row {
+    padding: 1rem;
+    .mdl-navigation__link {
+        padding: 0rem 1rem;
+        &:hover {
+            cursor: pointer;
+            background: lighten(rgb(3, 169, 244), 10);
+        }
+    }
+}
+
 .mdl-layout-title {
     color: #fff;
     font-weight: lighter;
