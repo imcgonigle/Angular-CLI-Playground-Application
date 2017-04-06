@@ -15,6 +15,7 @@ import { DrawerComponent } from './drawer/drawer.component';
 import { DisplayComponent } from './dashboard/display/display.component';
 import { ControlsComponent } from './dashboard/controls/controls.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { MdDialogComponent } from './md-dialog/md-dialog.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DrawerComponent,
     DisplayComponent,
     ControlsComponent,
-    DashboardComponent
+    DashboardComponent,
+    MdDialogComponent
   ],
   imports: [
     BrowserModule,
