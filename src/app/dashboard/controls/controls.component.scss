@@ -1,0 +1,33 @@
+.dashboard-controls {
+    overflow: auto;
+}
+
+nav {
+    width: 250px;
+    min-height: 100%;
+    h3 {
+        margin: 0;
+        padding: 0.2rem 0.5rem;
+        font-size: .9rem;
+        letter-spacing: 0.2rem;
+        background: #aaa;
+        color: #fff;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            width: 100%;
+            padding: 0.7rem 1rem;
+            border-bottom: 1px solid #ccc;
+            list-style: none;
+            color: #666;
+            background: #fefefe;
+            &:hover {
+                color: blue;
+                background: darken(#fefefe, 5);
+                cursor: pointer;
+            }
+        }
+    }
+}
