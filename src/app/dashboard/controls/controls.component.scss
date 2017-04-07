@@ -1,22 +1,31 @@
 .dashboard-controls {
-    overflow: auto;
-}
-
-nav {
     width: 250px;
     min-height: 100%;
+    overflow: auto;
     background: #334;
+    .control-item {
+        &.selected {
+            .title-control-item {
+                border-bottom: 1px solid lighten(#334, 10);
+                border-top: 1px solid lighten(#334, 10);
+                background: lighten(#334, 10);
+                color: lighten(rgb(3, 169, 244), 30);
+            }
+        }
+    }
     .title-control-item {
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 0;
         padding: 0.8rem 1rem;
+        border-top: 1px solid #334;
         border-bottom: 1px solid #888;
         letter-spacing: 0.15rem;
         background: #334;
         color: #fff;
         &:hover {
+            border-top: 1px solid #888;
             border-bottom: 1px solid lighten(#334, 10);
             background: lighten(#334, 10);
             cursor: pointer;
