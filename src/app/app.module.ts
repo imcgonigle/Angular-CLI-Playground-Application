@@ -11,7 +11,6 @@ import 'hammerjs';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { ContentComponent } from './content/content.component';
-import { DrawerComponent } from './drawer/drawer.component';
 import { DisplayComponent } from './dashboard/display/display.component';
 import { ControlsComponent } from './dashboard/controls/controls.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -22,7 +21,6 @@ import { MdDialogComponent } from './md-dialog/md-dialog.component';
     AppComponent,
     HeaderComponent,
     ContentComponent,
-    DrawerComponent,
     DisplayComponent,
     ControlsComponent,
     DashboardComponent,
