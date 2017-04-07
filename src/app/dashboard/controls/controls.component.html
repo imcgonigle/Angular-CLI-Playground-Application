@@ -1,14 +1,28 @@
 <nav class="dashboard-controls">
     <div class="control-item">
-        <span>Home</span>
-        <md-icon>home</md-icon>
+        <div class="title-control-item">
+            <span>Home</span>
+            <md-icon>home</md-icon>
+        </div>
     </div>
     <div class="control-item">
-        <span>New</span>
-        <md-icon>add</md-icon>
+        <div (click)="toggleExpand('showNew')" class="title-control-item">
+            <span>New</span>
+            <md-icon>add</md-icon>
+        </div>
+        <ul *ngIf="showNew" class="sub-control-items">
+            <li>Lesson</li>
+            <li>Curriculum</li>
+        </ul>
     </div>
-    <ul>
-        <li>Lesson</li>
-        <li>Curriculum</li>
-    </ul>
+    <div class="control-item">
+        <div (click)="toggleExpand('showSettings')" class="title-control-item">
+            <span>Settings</span>
+            <md-icon>settings</md-icon>
+        </div>
+        <ul *ngIf="showSettings" class="sub-control-items">
+            <li>Profile</li>
+            <li>Help</li>
+        </ul>
+    </div>
 </nav>

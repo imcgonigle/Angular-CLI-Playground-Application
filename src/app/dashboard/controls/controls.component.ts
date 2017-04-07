@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ControlsComponent implements OnInit {
 
+  showNew: boolean = false;
+  showSettings: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  toggleExpand(option: string): void {
+    this[option] = !this[option]
   }
 
 }
