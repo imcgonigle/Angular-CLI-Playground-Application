@@ -15,6 +15,7 @@ import { DisplayComponent } from './dashboard/display/display.component';
 import { ControlsComponent } from './dashboard/controls/controls.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MdDialogComponent } from './md-dialog/md-dialog.component';
+import { HomeComponent } from './dashboard/display/home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MdDialogComponent } from './md-dialog/md-dialog.component';
     DisplayComponent,
     ControlsComponent,
     DashboardComponent,
-    MdDialogComponent
+    MdDialogComponent,
+    HomeComponent
   ],
   entryComponents: [
     MdDialogComponent
