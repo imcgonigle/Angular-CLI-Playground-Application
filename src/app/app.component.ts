@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string = 'Angular CLI Playground Application';
+  icon: string = 'code';
 }

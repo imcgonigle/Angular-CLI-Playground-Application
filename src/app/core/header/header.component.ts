@@ -9,6 +9,7 @@ import { MdIconRegistry } from '@angular/material';
 })
 export class HeaderComponent implements OnInit {
   @Input() title: string;
+  @Input() icon: string;
 
   constructor(iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {}
 
