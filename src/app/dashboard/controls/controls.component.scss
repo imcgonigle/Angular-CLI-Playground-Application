@@ -17,7 +17,7 @@ nav {
         background: #334;
         color: #fff;
         &:hover {
-            border-bottom: none;
+            border-bottom: 1px solid lighten(#334, 10);
             background: lighten(#334, 10);
             cursor: pointer;
         }
