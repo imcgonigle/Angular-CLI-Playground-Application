@@ -1,12 +1,13 @@
 .mdl-layout__header-row {
     padding: 1rem;
-    .mdl-navigation__link {
-        padding: 0rem 1rem;
-        &:hover {
-            cursor: pointer;
-            background: lighten(rgb(3, 169, 244), 10);
-        }
+    button {
+        margin: 0rem 1rem;
     }
+}
+
+hr {
+    padding: 0;
+    margin: 0;
 }
 
 .mdl-layout-title {
