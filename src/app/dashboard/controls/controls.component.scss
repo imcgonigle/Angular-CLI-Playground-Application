@@ -5,18 +5,31 @@
 nav {
     width: 250px;
     min-height: 100%;
-    h3 {
+    background: #334;
+    .control-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         margin: 0;
-        padding: 0.2rem 1rem;
-        font-size: .9rem;
-        letter-spacing: 0.2rem;
-        background: #aaa;
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid #888;
+        letter-spacing: 0.15rem;
+        background: #334;
         color: #fff;
+        &:hover {
+            border-bottom: none;
+            background: lighten(#334, 10);
+            cursor: pointer;
+        }
+        span {
+            font-size: 1rem;
+        }
     }
     ul {
         margin: 0;
         padding: 0;
         li {
+            box-sizing: border-box;
             width: 100%;
             padding: 0.7rem 1rem;
             border-bottom: 1px solid #ccc;
